@@ -1,0 +1,63 @@
+[debug] [2023-04-25T14:43:28.525Z] ----------------------------------------------------------------------
+[debug] [2023-04-25T14:43:28.527Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-04-25T14:43:28.528Z] CLI Version:   11.28.0
+[debug] [2023-04-25T14:43:28.528Z] Platform:      win32
+[debug] [2023-04-25T14:43:28.528Z] Node Version:  v18.16.0
+[debug] [2023-04-25T14:43:28.529Z] Time:          Tue Apr 25 2023 10:43:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-04-25T14:43:28.529Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-25T14:43:28.532Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-04-25T14:43:28.578Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-25T14:43:28.579Z] > authorizing via signed-in user (jonathanmelitski@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jonat\OneDrive\Documents\7. Coding\VSCode\webapp2\Assassin-webserver
+
+[debug] [2023-04-25T14:43:28.762Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-04-25T14:43:28.763Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-25T14:43:37.460Z] > refreshing access token with scopes: []
+[debug] [2023-04-25T14:43:37.462Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-25T14:43:37.462Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-25T14:43:37.669Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-25T14:43:37.669Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-25T14:43:37.677Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-04-25T14:43:38.139Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-04-25T14:43:38.140Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project assassin-webserv (assassin-webserv) 
+[info] 
+=== Hosting Setup
+[debug] [2023-04-25T15:09:27.542Z] ----------------------------------------------------------------------
+[debug] [2023-04-25T15:09:27.544Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jonat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-25T15:09:27.545Z] CLI Version:   11.28.0
+[debug] [2023-04-25T15:09:27.545Z] Platform:      win32
+[debug] [2023-04-25T15:09:27.546Z] Node Version:  v18.16.0
+[debug] [2023-04-25T15:09:27.547Z] Time:          Tue Apr 25 2023 11:09:27 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-04-25T15:09:27.547Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-25T15:09:27.558Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-25T15:09:27.558Z] > authorizing via signed-in user (jonathanmelitski@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jonat\OneDrive\Documents\7. Coding\VSCode\webapp2\Assassin-webserver
+
